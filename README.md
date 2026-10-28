@@ -1,5 +1,16 @@
 # OSMTracker for Android™
 
+## Propuesta académica BJY: atributos de un mismo elemento
+
+Esta rama contiene la propuesta del equipo BJY para estudiar la agrupación de
+atributos en OSMTracker. El primer avance incluye el planteamiento, un modelo
+experimental en memoria y un ejemplo de creación de instancias. La funcionalidad
+todavía no está integrada en la aplicación.
+
+**[Leer el planteamiento, alcance y plan de seis commits](docs/propuesta-bjy/README.md)**.
+
+---
+
 ![Build](https://github.com/labexp/osmtracker-android/actions/workflows/android.yml/badge.svg?branch=develop)
 [![Coverage Status](https://coveralls.io/repos/github/labexp/osmtracker-android/badge.svg?branch=develop)](https://coveralls.io/github/labexp/osmtracker-android?branch=develop)
 
