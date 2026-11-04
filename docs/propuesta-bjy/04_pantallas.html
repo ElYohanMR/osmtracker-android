@@ -1,0 +1,31 @@
+<!doctype html><html lang="es"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BJY · Ficha de un elemento</title>
+<style>
+body{font:16px/1.5 system-ui,sans-serif;background:#eef2f6;color:#162c3b;margin:0;padding:32px}
+main{max-width:1150px;margin:auto}h1{font-size:28px}p{max-width:850px}
+.screens{display:flex;gap:24px;flex-wrap:wrap;margin:28px 0}.phone{width:290px;background:white;border:2px solid #bbcbd6;border-radius:22px;overflow:hidden}
+.top{background:#144e63;color:white;padding:20px}.content{padding:20px}.item{padding:12px;border:1px solid #d3dee7;border-radius:8px;margin:12px 0}
+.selected{border:2px solid #087e8b}.button{background:#144e63;color:white;padding:12px;text-align:center;border-radius:8px;margin-top:14px}
+.secondary{background:#e5eef1;color:#173c4a}.field{border:1px solid #9dafbc;border-radius:6px;padding:10px;margin:6px 0 18px}.small{font-size:13px}.tag{font-weight:bold;color:#08717f}
+@media print{body{padding:0;background:white}.screens{gap:12px}.phone{width:28%;break-inside:avoid}h1{font-size:23px}}
+</style><main><p class="tag">PROPUESTA BJY · ESQUEMAS DE INTERACCIÓN</p>
+<h1>Un elemento, varias características</h1>
+<p>Maquetas estáticas. Los nombres y atributos son ejemplos. La aplicación todavía
+no incluye estas pantallas ni guarda las fichas propuestas.</p>
+<div class="screens">
+<section class="phone"><div class="top"><b>1. Elegir elemento</b><br>Waypoints del recorrido</div><div class="content">
+<div class="item selected"><b>Hidrante</b><br><span class="small">Referencia: demo-1 · Seleccionado</span></div>
+<div class="item"><b>Parada</b><br><span class="small">Referencia: demo-2</span></div>
+<div class="button">Abrir ficha</div><p class="small">La selección determina qué elemento se describe.</p></div></section>
+<section class="phone"><div class="top"><b>2. Describir elemento</b><br>Hidrante · demo-1</div><div class="content">
+<b>Característica</b><div class="field">Color</div><b>Valor</b><div class="field">Amarillo</div>
+<div class="button secondary">Agregar al borrador</div><div class="item">Color: amarillo<br>Tipo: pilar</div>
+<div class="button">Revisar ficha</div><div class="button secondary">Cancelar edición</div></div></section>
+<section class="phone"><div class="top"><b>3. Revisar ficha</b><br>Hidrante · demo-1</div><div class="content">
+<div class="item"><b>Características</b><br>Color: amarillo<br>Tipo: pilar</div>
+<p class="small">Se mantiene la ubicación del waypoint seleccionado. No se crea otro punto por característica.</p>
+<div class="button secondary">Volver a editar</div><div class="button">Confirmar ficha*</div>
+<p class="small">* Acción propuesta: el guardado requiere integración futura. No está implementado.</p></div></section>
+</div><p><b>Cancelar:</b> descartar la copia de edición, conservando el elemento original.
+<b>Campos vacíos:</b> mostrar un mensaje y mantener la ficha abierta.</p></main></html>
