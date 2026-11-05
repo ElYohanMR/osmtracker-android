@@ -1,6 +1,6 @@
 # Interfaz y flujo propuestos
 
-Los esquemas se encuentran en [04_pantallas.html](04_pantallas.html), que puede
+Los esquemas se encuentran en [pantallas.html](pantallas.html), que puede
 abrirse localmente en un navegador. Son maquetas estáticas, no pantallas
 implementadas ni una demostración de guardado.
 

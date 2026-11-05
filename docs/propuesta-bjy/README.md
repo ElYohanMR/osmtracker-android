@@ -162,7 +162,7 @@ que solo se proponen.
 
 ## 9. Uso de inteligencia artificial y revisión pendiente
 
-Se utilizó Codex para apoyar la revisión del código y preparar el borrador del
-planteamiento, el plan de trabajo y la clase experimental de este primer avance.
+Se utilizó Codex para apoyar la revisión del código y ChatGPT para preparar el borrador
+del planteamiento, el plan de trabajo y la clase experimental de este primer avance.
 La revisión y aprobación del contenido y planteamiendo general se realizo por 
 los 3 estudiantes.
